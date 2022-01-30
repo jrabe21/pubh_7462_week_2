@@ -29,8 +29,8 @@ knitr::opts_chunk$set(
   echo  = TRUE
 )
 
-#Set Themes for ggplot2 - centers title and legend at bottom by default, also changes font size and background
-theme_set(theme(plot.title = element_text(hjust = 0.5, size = 20),
+#Set Themes for ggplot2 - centers title and legend at bottom by default and edit background
+theme_set(theme(plot.title = element_text(hjust = 0.5),
                 legend.position = "bottom", 
                 panel.grid.major = element_blank(), 
                 panel.grid.minor = element_blank(),
